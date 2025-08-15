@@ -30,7 +30,7 @@ jobs:
         distribution: 'zulu'
         cache: maven
     - name: Show version
-      run: "java-version"
+      run: "java -version"
 
     - name: Show dir
       run: 'pwd'
